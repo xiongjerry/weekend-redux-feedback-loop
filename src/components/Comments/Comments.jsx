@@ -23,7 +23,7 @@ function Comments() {
 
     return (
         <>
-            <h1>How well are you being supported?</h1>
+            <h1>Any comments you want to leave?</h1>
 
             <form onSubmit={handleSubmit}>
 
