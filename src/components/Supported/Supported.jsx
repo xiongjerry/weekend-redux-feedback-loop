@@ -28,7 +28,8 @@ function Supported () {
             <form onSubmit={handleSubmit}>
 
                 <label>Support?</label>
-                <select name="Supported" onChange={(event) => setSupported(event.target.value)}>
+                <select required name="Supported" onChange={(event) => setSupported(event.target.value)}>
+                    <option id="blank" value="">Please Select A Rating</option>
                     <option id="1" value="1">1</option>
                     <option id="2" value="2">2</option>
                     <option id="3" value="3">3</option>

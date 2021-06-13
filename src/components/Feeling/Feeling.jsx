@@ -27,7 +27,8 @@ function Feeling() {
             <form onSubmit={handleSubmit}>
 
                 <label>Feeling?</label>
-                <select name="Feeling" onChange={(event) => setFeeling(event.target.value)}>
+                <select required name="Feeling" onChange={(event) => setFeeling(event.target.value)}>
+                    <option id="blank" value="">Please Select A Rating</option>
                     <option id="1" value="1">1</option>
                     <option id="2" value="2">2</option>
                     <option id="3" value="3">3</option>
