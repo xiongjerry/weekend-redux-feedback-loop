@@ -24,31 +24,31 @@ Initialize
         [x] Make components and then add the components into the Router --> Requires further scoping
 
     Components
-        [] Feeling : make Feeling.jsx component
+        [x] Feeling : make Feeling.jsx component
             [] Prints out an h1 tag saying 'How are you feeling today?'
             [] Includes a dropdown input labeled 'Feeling?' with values 1-5 with a next button
             [] Button adds input value into reducer and links to the next page
             [] Next button shouldn't work until all inputs are submitted and alert if not submitted
 
-        [] Understanding : make Understanding.jsx component
+        [x] Understanding : make Understanding.jsx component
             [] Prints out an h1 tag saying 'How well are you understanding the content?'
             [] Includes a dropdown input labeled 'Understanding?' with values 1-5 with a next button
             [] Button adds input value into reducer and links to the next page
             [] Next button shouldn't work until all inputs are submitted and alert if not submitted
 
-        [] Supported : make Supported.jsx component
+        [x] Supported : make Supported.jsx component
             [] Prints out an h1 tag saying 'How well are you being supported?'
             [] Includes a dropdown input labeled 'Support?' with values 1-5 with a next button
             [] Button adds input value into reducer and links to the next page
             [] Next button shouldn't work until all inputs are submitted and alert if not submitted
 
-        [] Comments : make Comments.jsx component
+        [x] Comments : make Comments.jsx component
             [] Prints out an h1 tag saying 'Any Comments you want to leave?'
             [] Includes a dropdown input labeled 'Comments' with values 1-5 with a next button
             [] Button adds input value into reducer and links to the next page
             [] Input is not needed for next button to work
 
-        [] Review : make Review.jsx
+        [x] Review : make Review.jsx
             [] Prints out an h1 tag saying 'Review your Feedback'
             [] Prints out reducer list of the collected input
                 [] Feelings
@@ -57,7 +57,7 @@ Initialize
                 [] Comments
             [] Has a submit button that adds info from reducer into database via axios.post and goes to Thank you page
         
-        [] Success : make Success.jsx
+        [x] Success : make Success.jsx
             [] Prints out an h1 tag saying 'Thank You'
             [] Has button printed with 'Leave New Feedback"
             [] button goes to Feeling page
