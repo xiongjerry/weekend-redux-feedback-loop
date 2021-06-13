@@ -9,14 +9,14 @@ Initialize
         [x] POST
 
     Redux
-        [] Import dependencies into Index.js
-        [] createStore, combineReducers, applyMiddleware from redux
-        [] Provider from react-redux
-        [] logger from react-logger --> must be installed first
+        [x] Import dependencies into Index.js
+        [x] createStore, combineReducers, applyMiddleware from redux
+        [x] Provider from react-redux
+        [x] logger from react-logger --> must be installed first
 
-        [] Create reducers --> not possible until further scoping
-        [] Create store and add reducers
-        [] Wrap Provider around App in ReactDOM
+        [x] Create reducers --> not possible until further scoping
+        [x] Create store and add reducers
+        [x] Wrap Provider around App in ReactDOM
         
     App.jsx
         [] Import Route, Hashrouter as Router from react-router-dom
