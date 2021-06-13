@@ -25,28 +25,28 @@ Initialize
 
     Components
         [x] Feeling : make Feeling.jsx component
-            [] Prints out an h1 tag saying 'How are you feeling today?'
-            [] Includes a dropdown input labeled 'Feeling?' with values 1-5 with a next button
-            [] Button adds input value into reducer and links to the next page
+            [x] Prints out an h1 tag saying 'How are you feeling today?'
+            [x] Includes a dropdown input labeled 'Feeling?' with values 1-5 with a next button
+            [x] Button adds input value into reducer and links to the next page
             [] Next button shouldn't work until all inputs are submitted and alert if not submitted
 
         [x] Understanding : make Understanding.jsx component
-            [] Prints out an h1 tag saying 'How well are you understanding the content?'
-            [] Includes a dropdown input labeled 'Understanding?' with values 1-5 with a next button
-            [] Button adds input value into reducer and links to the next page
+            [x] Prints out an h1 tag saying 'How well are you understanding the content?'
+            [x] Includes a dropdown input labeled 'Understanding?' with values 1-5 with a next button
+            [x] Button adds input value into reducer and links to the next page
             [] Next button shouldn't work until all inputs are submitted and alert if not submitted
 
         [x] Supported : make Supported.jsx component
-            [] Prints out an h1 tag saying 'How well are you being supported?'
-            [] Includes a dropdown input labeled 'Support?' with values 1-5 with a next button
-            [] Button adds input value into reducer and links to the next page
+            [x] Prints out an h1 tag saying 'How well are you being supported?'
+            [x] Includes a dropdown input labeled 'Support?' with values 1-5 with a next button
+            [x] Button adds input value into reducer and links to the next page
             [] Next button shouldn't work until all inputs are submitted and alert if not submitted
 
         [x] Comments : make Comments.jsx component
-            [] Prints out an h1 tag saying 'Any Comments you want to leave?'
-            [] Includes a dropdown input labeled 'Comments' with values 1-5 with a next button
-            [] Button adds input value into reducer and links to the next page
-            [] Input is not needed for next button to work
+            [x] Prints out an h1 tag saying 'Any Comments you want to leave?'
+            [x] Includes a dropdown input labeled 'Comments' with values 1-5 with a next button
+            [x] Button adds input value into reducer and links to the next page
+            [x] Input is not needed for next button to work
 
         [x] Review : make Review.jsx
             [] Prints out an h1 tag saying 'Review your Feedback'
