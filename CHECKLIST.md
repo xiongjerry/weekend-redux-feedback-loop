@@ -1,12 +1,12 @@
 Initialize
 
     Server
-        [] Make routes folder, then make feedback.router.js
-        [] Import feedback.router into server.js
+        [x] Make routes folder, then make feedback.router.js
+        [x] Import feedback.router into server.js
         
-        [] In feedback.router, make appropriate routes
-        [] GET
-        [] POST
+        [x] In feedback.router, make appropriate routes
+        [x] GET
+        [x] POST
 
     Redux
         [] Import dependencies into Index.js
